@@ -1,7 +1,7 @@
 # FinalProjectUsefulCodeRepo
 Example code and snippets to help developing your final projects.
 
-## Remember: You can only have 20% of your final code as borrowed code. Please site all code modified or borrowed from the links below.
+### Remember: You can only have 20% of your final code as borrowed code. Please site all code modified or borrowed from the links below.
 
 Below are a list of useful links to help you with specific problems
 - Turning a gif animation into an image stack (use with: animated backgrounds): https://stackoverflow.com/questions/9988517/resize-gif-animation-pil-imagemagick-python?rq=1
