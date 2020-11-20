@@ -17,4 +17,4 @@ There's also code in this repo for solutions/tools many of you will find useful.
 - **dragBubbles.py** - example function to use for dragging. YOU MUST use the format shown in the function definition (`ondrag(None)` `...` `ondrag(func)`)
 - **setImage.py** - how to set the Screen and/or turtle as an imported image.
 - **img2gif.py** - converts images into a compatible filetype (.gif). [FIXED! It now allows shrinking (0.25, 0.5 scale values)]
-- **collisionBubbles.py** - 
+- **collisionBubbles.py** - getting turtles to bump into each other and change direction. Uses center positions, so collisions involve a little crossover of images. You'll have to tweak it to get it to bounce at shape edges.
