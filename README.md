@@ -18,3 +18,4 @@ There's also code in this repo for solutions/tools many of you will find useful.
 - **setImage.py** - how to set the Screen and/or turtle as an imported image.
 - **img2gif.py** - converts images into a compatible filetype (.gif). [FIXED! It now allows shrinking (0.25, 0.5 scale values)]
 - **collisionBubbles.py** - getting turtles to bump into each other and change direction. Uses center positions, so collisions involve a little crossover of images. You'll have to tweak it to get it to bounce at shape edges.
+- **turtleTextbox.py** - creates a clickable text box that writes, deletes and stores text entered into the box. Some editing is required to get it to work for all letters. Instructions are stated at the top of the script.
