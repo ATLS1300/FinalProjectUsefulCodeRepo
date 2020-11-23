@@ -5,6 +5,7 @@ Example code and snippets to help developing your final projects.
 
 ### Links:
 Below are a list of useful links to help you with specific problems
+- Flocking example (boids). Written in JAVASCRIPT, but useful math! https://eater.net/boids
 - Turning a gif animation into an image stack (use with: animated backgrounds): https://stackoverflow.com/questions/9988517/resize-gif-animation-pil-imagemagick-python?rq=1
 *Requires installation of images2gif. In your commandline enter: pip install images2gif then use the script!*
 - How to draw a petal: https://pythonturtle.academy/tutorial-drawing-a-flower-petal-or-a-leaf-with-python-turtle/
