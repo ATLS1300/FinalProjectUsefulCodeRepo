@@ -9,10 +9,18 @@ turtle text box, great for use with interactive games, entering names, etc.
 stores text entered to the attribute text.
 
 run code to see what it does, import as module to work with it.
- 
+
+Interaction instructions:
+    
 Click on the screen to activate (does not specify the box being clicked on)
 type a to make demo letters, type 1 to delete  (the turtle doesn't detect the delete key.)
-       
+
+When creating a textBox object, 3 optional parameters are used: 
+    size - a list or tuple (w,h),   
+    x -an integer of the HORIZONTAL position of the LOWER LEFT corner of the text box, and
+    y -an integer of the VERTICAL position of the LOWER LEFT corner of the text box                                                
+
+   
      NOTE! To get this to work for all letters, you'll have to duplicate the
      self.TypeA with different letters!!! (So make TypeB, TypeC, TypeD,...,TypeZ)                                          
                                                 
@@ -29,9 +37,11 @@ turtle.tracer(0)
 class textBox:
 #attributes: colors, the size, the font
 #methods: pulling data, draw
-    def __init__(self, size=(100, 30)):
+    def __init__(self, size=(100, 30),x=0,y=0):
       self.input_box = turtle.Turtle(shape='square') 
       self.textWriter = turtle.Turtle(visible=False)
+      self.setup(size[0],size[1],x,y)
+
 
       #set colors for my input box
       self.color_inactive = 'lightskyblue3'
@@ -50,6 +60,11 @@ class textBox:
       panel.onkeypress(self.delete,'1')
       panel.onclick(self.activate)
       
+    def setup(self, h,w,x,y):
+      self.input_box.up()
+      self.textWriter.up()
+      self.input_box.goto(x,y)
+      self.textWriter.goto(x,y)
       
     def rect(self,w=100,h=30):
         self.input_box.color(self.color)
