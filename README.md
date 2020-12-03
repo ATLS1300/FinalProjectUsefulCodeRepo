@@ -16,6 +16,7 @@ Below are a list of useful links to help you with specific problems
 
 ### Example Code:
 There's also code in this repo for solutions/tools many of you will find useful.
+- **soundFix.py** - YOU MUST FIRST INSTALL PYGAME by typing: `pip install pygame` in the command console of Spyder. Then, you can run the code to hear music and click to play sound effects. You MUST initialize the mixer to get sound to play. This is the 3rd line of code: `mixer.init()`
 - **dragBubbles.py** - example function to use for dragging. YOU MUST use the format shown in the function definition (`ondrag(None)` `...` `ondrag(func)`)
 - **setImage.py** - how to set the Screen and/or turtle as an imported image.
 - **img2gif.py** - converts images into a compatible filetype (.gif). [FIXED! It now allows shrinking (0.25, 0.5 scale values)]
