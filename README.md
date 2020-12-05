@@ -9,7 +9,8 @@ Below are a list of useful links to help you with specific problems
 - Turning a gif animation into an image stack (use with: animated backgrounds): https://stackoverflow.com/questions/9988517/resize-gif-animation-pil-imagemagick-python?rq=1
 *Requires installation of images2gif. In your commandline enter: pip install images2gif then use the script!*
 - How to draw a petal: https://pythonturtle.academy/tutorial-drawing-a-flower-petal-or-a-leaf-with-python-turtle/
-- Perlin noise (how to generate islands and landscapes examples: https://www.reddit.com/r/proceduralgeneration/comments/87mfcd/water_and_land_using_python_turtle/) This is a module only, example code coming soon: https://gist.github.com/eevee/26f547457522755cb1fb8739d0ea89a1
+- Perlin noise (how to generate islands and landscapes examples: https://medium.com/quick-code/generating-random-3d-terrain-with-python-c344ae16e5c1/) This is a module only, example code coming soon: https://gist.github.com/eevee/26f547457522755cb1fb8739d0ea89a1
+  Perlin noise library: `pip install noise`
 - Random track/maze generation (no interaction): https://trinket.io/python/2d45f43e73
 - Random track/maze generation (no interaction): https://pythonturtle.academy/random-maze-generator/
 - How to open a webpage in a browser from a button in python: http://net-informations.com/python/net/browser.htm (*example code coming soon*)
