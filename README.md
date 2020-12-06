@@ -24,7 +24,7 @@ There's also code in this repo for solutions/tools many of you will find useful.
 - **img2gif.py** - converts images into a compatible filetype (.gif). [FIXED! It now allows shrinking (0.25, 0.5 scale values)]
 - **collisionBubbles.py** - getting turtles to bump into each other and change direction. Uses center positions, so collisions involve a little crossover of images. You'll have to tweak it to get it to bounce at shape edges.
 - **turtleTextbox.py** - creates a clickable text box that writes, deletes and stores text entered into the box. Some editing is required to get it to work for all letters. Instructions are stated at the top of the script.
-- **perlinExample.py** - creates an island with snowy peaks, and a naturalistic line that can be used to make rivers, hillsides and mountain scapes.
+- **islandMountains.py** - Example uses **perlin-noise library** to create islands with snowy peaks, and a naturalistic line that can be used to make rivers, hillsides and mountain scapes. *NOTE: This code is SLOW to run!*
 
 ### Libraries:
 Download these and import them into your files! **These files have to be in the same folder as the .py file that's importing them.** To see a demo, download the file and run it. To look at example code, check out what's written in the `if __name__=='__main__'` code block.
