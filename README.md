@@ -11,7 +11,7 @@ Below are a list of useful links to help you with specific problems
 - How to draw a petal: https://pythonturtle.academy/tutorial-drawing-a-flower-petal-or-a-leaf-with-python-turtle/
 - Easiest way to make naturalistic shapes like ISLANDS, RIVERS, and MOUNTIAN RIDGELINES is to use **Perlin noise** (examples: https://medium.com/quick-code/generating-random-3d-terrain-with-python-c344ae16e5c1/) I recommend using the perlin-noise module which can be downloaded using:
     `pip install perlin-noise`
-    And can be imported using: `import perlin_noise`. Example code is below.
+    And can be imported using: `from perlin_noise import perlinNoise`. Example code is below.
 - Random track/maze generation (no interaction): https://trinket.io/python/2d45f43e73
 - Random track/maze generation (no interaction): https://pythonturtle.academy/random-maze-generator/
 - How to open a webpage in a browser from a button in python: http://net-informations.com/python/net/browser.htm (*example code coming soon*)
