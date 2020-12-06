@@ -23,4 +23,8 @@ There's also code in this repo for solutions/tools many of you will find useful.
 - **img2gif.py** - converts images into a compatible filetype (.gif). [FIXED! It now allows shrinking (0.25, 0.5 scale values)]
 - **collisionBubbles.py** - getting turtles to bump into each other and change direction. Uses center positions, so collisions involve a little crossover of images. You'll have to tweak it to get it to bounce at shape edges.
 - **turtleTextbox.py** - creates a clickable text box that writes, deletes and stores text entered into the box. Some editing is required to get it to work for all letters. Instructions are stated at the top of the script.
-- **boundary.py** - a LIBRARY! That can be imported (if in the same folder as the file you're using it in). You can also run the code to see how it works. This library has methods that allows for screen edge interaction, and how to draw and collide with walls.
+
+### Libraries:
+Download these and import them into your files! **These files have to be in the same folder as the .py file that's importing them.** To see a demo, download the file and run it. To look at example code, check out what's written in the `if __name__=='__main__'` code block.
+- **timer.py** - This library has methods for making a countdown timer bar that ticks down across the page, and a numerical countdown timer.
+- **boundary.py** - This library has methods that allows for screen edge interaction, and how to draw and collide with walls.
