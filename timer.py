@@ -5,21 +5,13 @@ Created on Wed Dec  2 21:47:44 2020
 
 @author: Dr. Z
 
-Count down timer
+Count down timer library
 
 "Deletes" a bar across the screen, with numbers that decrease
 """
 
 import turtle, time
 
-panel = turtle.Screen()
-w=400
-h=400
-panel.setup(w,h)
-
-# let's change this around so it'll work with any size:
-# w = panel.window_width
-# h = panel.window_height()
 
 class Timer(turtle.Turtle):
     def __init__(self):
@@ -79,10 +71,21 @@ class Timer(turtle.Turtle):
          panel.update()
     
 if __name__ == "__main__":   
-    t = Timer()
-    t.drawTimer(-w/2+w*.1,h/2-h*.1)
+    
+    
+    panel = turtle.Screen()
+    w=400
+    h=400
+    panel.setup(w,h)
+    
+    # let's change this around so it'll work with any size:
+    # w = panel.window_width
+    # h = panel.window_height()
+    timer = Timer()
+    timer.drawTimer(-w/2+w*.1,h/2-h*.1) # scale to window size
+    
     while True:
-      t.showTime(w/2-w*.2,-h/2+h*.1)
-      t.tick()
+      timer.showTime(w/2-w*.2,-h/2+h*.1)
+      timer.tick()
     
     turtle.done()
